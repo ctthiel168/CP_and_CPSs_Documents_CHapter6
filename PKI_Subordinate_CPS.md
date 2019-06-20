@@ -1,7 +1,6 @@
 # PKI Subordinate CPS
 
 <table>
-  <tbody>
     <tr>
       <td  valign="top"><h2> 6.  TECHNICAL SECURITY CONTROLS</h2></td>
       <td  valign="top">Related Requirements</td>
@@ -606,5 +605,4 @@ logged.</td>
       <td  valign="top">  <b>RFC</b>  <br>This subcomponent addresses requirements or practices relating to the use of timestamps on various data.  It may also discuss whether or not the time-stamping application must use a trusted time source.<br>  <br><b>BRG</b>  <br>   Empty<br>  <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>   6.5.8 Timestamping<br> <br> NOTE: Not in the scope of the present document. See ETSI EN 319 421 [i.15] for policy requirements for TSPs issuing time-stamps.<br>
       </td>
     </tr>
-  </tbody>
 </table>
