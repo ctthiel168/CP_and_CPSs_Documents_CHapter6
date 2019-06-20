@@ -5,7 +5,7 @@
       <td  valign="top"><h2> 6.  TECHNICAL SECURITY CONTROLS</h2></td>
       <td  valign="top">Related Requirements</td>
       </tr>
-    <tr>
+   <tr>
       <td  valign="top">Technical security controls are defined in accordance with [ETSI EN 319 411-1] and [ETSI EN 319 401]. The technical security controls address:
       <ul>
         <li>the security measures taken by the Siemens CA to protect its Root Key Pairs and Activation Data (e.g. passwords)</li>
