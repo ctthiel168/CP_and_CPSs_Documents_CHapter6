@@ -419,14 +419,7 @@ GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GE
       <td  valign="top"><h4>6.2.10 Method of destroying private key</h4></td>
       <td  valign="top"></td>
     </tr>
-    
-    
-           
- 
- </table>
- <table>
-    
-    <tr>
+<tr>
       <td  valign="top">Siemens Root CA's Private Keys shall be destroyed if they are no longer needed, or when the Certificates to which they correspond expire or are revoked. CA Private Key destruction requires the participation of at least three trusted employees. Private Keys shall be destroyed in a way that prevents their loss, theft, modification, unauthorized disclosure, or unauthorized use. When performed, the destruction process is logged.<br><br>Issuing CA private keys are solely stored within cryptographic hardware modules (see chapter 6.2.7). Their destruction (in case they are no longer needed) requires the participation of three trusted employees. When performed, the destruction process is
 logged.</td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.2<br>  <br><b>BRG</b>  <br>   Empty<br>  <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
@@ -478,11 +471,10 @@ logged.</td>
     </tr>
     <tr>
       <td  valign="top">The operational period of a Certificate ends upon its expiration or revocation. The operational period for Key Pairs is the same as the operational period for the associated Certificates, except that they may continue to be used for signature verification The applicability of cryptographic algorithms and parameters is constantly supervised. If an algorithm or the appropriate key length offers no sufficient security during validity period of the Certificate, the concerned Certificate will be revoked and new Certificate Application will be initiated. The maximum operational periods for Root CA Certificates are set forth in table below.
-
-
+<br><br>
         Certificate                                |              Validity Period
        Siemens Root CA Certificate                 | Up to twelve (12) years
-
+<br><br>
       The Validity Period of the Private Key and Public Key of Issuing CAs, RAs and Subjects ends upon its expiration or revocation. This Validity Period is based on the Validity Period of the Root CA Certificate set forth in the table below.
 
    INCLUDE TABLE </td>
