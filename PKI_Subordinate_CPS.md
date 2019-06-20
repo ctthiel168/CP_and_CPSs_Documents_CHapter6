@@ -261,16 +261,13 @@ GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GE
           <td>L= 2048 N= 224 or L= 2048 N= 256</td>
         </tr>
       </table>
-       
- 
- </table>
- <table>
+
  
 <br> <br> * SHA-1 MAY be used with RSA keys in accordance with the criteria defined in Section 7.1.3.<br> <br> ** A Root CA Certificate issued prior to 31 Dec. 2010 with an RSA key size less than 2048 bits MAY still serve as a trust anchor for Subscriber Certificates issued in accordance with these Requirements.<br> <br> *** L and N (the bit lengths of modulus p and divisor q, respectively) are described in the Digital Signature Standard, FIPS 186-4 (http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf).<br><br>
        <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
-      </td>
-    </tr>
-    <tr>
+ </td>
+ </tr>
+ <tr>
       <td  valign="top"><h4> 6.1.6  Public key parameters generation and quality checking</h4></td>
       <td  valign="top"></td>
     </tr>
@@ -422,6 +419,13 @@ GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GE
       <td  valign="top"><h4>6.2.10 Method of destroying private key</h4></td>
       <td  valign="top"></td>
     </tr>
+    
+    
+           
+ 
+ </table>
+ <table>
+    
     <tr>
       <td  valign="top">Siemens Root CA's Private Keys shall be destroyed if they are no longer needed, or when the Certificates to which they correspond expire or are revoked. CA Private Key destruction requires the participation of at least three trusted employees. Private Keys shall be destroyed in a way that prevents their loss, theft, modification, unauthorized disclosure, or unauthorized use. When performed, the destruction process is logged.<br><br>Issuing CA private keys are solely stored within cryptographic hardware modules (see chapter 6.2.7). Their destruction (in case they are no longer needed) requires the participation of three trusted employees. When performed, the destruction process is
 logged.</td>
