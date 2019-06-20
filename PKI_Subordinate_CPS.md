@@ -262,7 +262,10 @@ GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GE
         </tr>
       </table>
        
-       
+ 
+ </table>
+ <table>
+ 
 <br> <br> * SHA-1 MAY be used with RSA keys in accordance with the criteria defined in Section 7.1.3.<br> <br> ** A Root CA Certificate issued prior to 31 Dec. 2010 with an RSA key size less than 2048 bits MAY still serve as a trust anchor for Subscriber Certificates issued in accordance with these Requirements.<br> <br> *** L and N (the bit lengths of modulus p and divisor q, respectively) are described in the Digital Signature Standard, FIPS 186-4 (http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf).<br><br>
        <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
       </td>
