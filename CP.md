@@ -49,10 +49,11 @@
           <li>requirements of evidence to be collected of the ceremony</li>.
         </ol>
         
-        GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GEN-6.5.1-11 above, was carried out in accordance with the stated procedure and that the integrity and confidentiality of the key pair was ensured.<br> <br>
-        GEN-6.5.1-14: This report shall be signed [CHOICE]:
-        
-        <ul>
+GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GEN-6.5.1-11 above, was carried out in accordance with the stated procedure and that the integrity and confidentiality of the key pair was ensured.<br> <br>
+
+GEN-6.5.1-14: This report shall be signed [CHOICE]:
+ 
+<ul>
           <li>For root CA: by the trusted role responsible for the security of the TSP's key management ceremony (e.g. security officer) and a trustworthy person independent of the TSP's management (e.g. Notary, auditor) as<br>witness that the report correctly records the key management ceremony as carried out.</li>
           <li>For subordinate CAs: by the trusted role responsible for the security of the TSP's key management ceremony (e.g. security officer) as witness that the report correctly records the key management ceremony as carried out.</li>
         </ul>
