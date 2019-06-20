@@ -171,9 +171,8 @@ GEN-6.5.1-14: This report shall be signed [CHOICE]:
       </td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.1<br>  <br><b>BRG</b>  <br>   Certificates MUST meet the following requirements for algorithm type and key size.<br> <br>
       
-      (1) Root CA Certificates<br> <br> <br>
-      
-      <table>
+  (1) Root CA Certificates<br> <br> <br>
+       <table>
         <tr>
           <th></th>
           <th>Validity period beginning on or before 31 Dec 2010</th>
@@ -201,9 +200,9 @@ GEN-6.5.1-14: This report shall be signed [CHOICE]:
         </tr>
       </table>
       
-      (2) Subordinate CA Certificates<br> <br>
+  (2) Subordinate CA Certificates<br> <br>
       
-      <table>
+   <table>
         <tr>
           <th></th>
           <th>Validity period beginning on or before 31 Dec 2010 and ending on or before 31 Dec 2013</th>
@@ -232,9 +231,9 @@ GEN-6.5.1-14: This report shall be signed [CHOICE]:
       </table>
       
       
-       (3) Subscriber Certificates<br> <br>
+  (3) Subscriber Certificates<br> <br>
        
-       <table>
+   <table>
         <tr>
           <th></th>
           <th>Validity period ending on or before 31 Dec 2013</th>
@@ -261,9 +260,9 @@ GEN-6.5.1-14: This report shall be signed [CHOICE]:
           <td>L= 2048 N= 224 or L= 2048 N= 256</td>
         </tr>
       </table>
+   
        
-       
-       |<br> <br> * SHA-1 MAY be used with RSA keys in accordance with the criteria defined in Section 7.1.3.<br> <br> ** A Root CA Certificate issued prior to 31 Dec. 2010 with an RSA key size less than 2048 bits MAY still serve as a trust anchor for Subscriber Certificates issued in accordance with these Requirements.<br> <br> *** L and N (the bit lengths of modulus p and divisor q, respectively) are described in the Digital Signature Standard, FIPS 186-4 (http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf).<br><br>
+ <br> <br> * SHA-1 MAY be used with RSA keys in accordance with the criteria defined in Section 7.1.3.<br> <br> ** A Root CA Certificate issued prior to 31 Dec. 2010 with an RSA key size less than 2048 bits MAY still serve as a trust anchor for Subscriber Certificates issued in accordance with these Requirements.<br> <br> *** L and N (the bit lengths of modulus p and divisor q, respectively) are described in the Digital Signature Standard, FIPS 186-4 (http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf).<br><br>
        <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
       </td>
     </tr>
@@ -319,7 +318,7 @@ GEN-6.5.1-14: This report shall be signed [CHOICE]:
       </ol>
         NOTE 1: Standards specifying common criteria protection profiles for TSP's cryptographic modules, in accordance with ISO/IEC 15408 [1], are currently under development within CEN as CEN TS 419 221-2 [i.16], CEN TS 419 221-3 [i.17], CEN TS 419 221-4 [i.18], or CEN EN 419 221-5 [i.19].<br><br>
       
-      OVR -6.5.2-02: The secure cryptographic device shall be operated in its configuration as described in the appropriate certification guidance documentation or in an equivalent configuration which achieves the same security objective.<br> <br> OVR -6.5.2-03: The above secure cryptographic device should be assured as per OVR-6.5.2-01-a), above.  <br> <br> NOTE 2: With the general availability of devices which meet ISO/IEC 15408 [1], it is expected that ISO/IEC 19790 [3] or FIPS 140-2 [12] level 3 will no longer be acceptable.  <br> <br> NOTE 3: This applies also to key generation even if carried out in a separate system.  <br> <br> GEN-6.5.2-04: The CA private signing key shall be held and used within a secure cryptographic device meeting the requirements of OVR-6.5.2-01 and OVR-6.5.2-02 above.<br> <br> GEN-6.5.2-05 [CONDITIONAL]: When outside the secure cryptographic device (see GEN-6.5.2-04 above) the CA private key shall be protected in a way that ensures the same level of protection as provided by the secure cryptographic device.<br> <br> GEN-6.5.2-06: The CA private signing key shall be backed up, stored and recovered only by personnel in trusted roles using, at least, dual control in a physically secured environment (see clause 6.4.2).<br> <br> GEN-6.5.2-07: The number of personnel authorized to carry out the CA private signing key back up, storage and recovery shall be kept to a minimum and be consistent with the CA's practices.<br> <br> GEN-6.5.2-08: Copies of the CA private signing keys shall be subject to the same or greater level of security controls as keys currently in use.<br> <br> GEN-6.5.2-09 [CONDITIONAL]: Where the CA private signing keys and any copies are stored in a dedicated secure cryptographic device, access controls shall be in place to ensure that the keys are not accessible outside this device.<br> <br> OVR -6.5.2-10: The secure cryptographic device shall not be tampered with during shipment.<br> <br> OVR -6.5.2-11: The secure cryptographic device shall not be tampered with while stored.<br> <br> OVR -6.5.2-12: The secure cryptographic device shall be functioning correctly.<br> <br> GEN-6.5.2-13: The CA private signing keys stored on the CA's secure cryptographic device shall be destroyed upon device retirement.<br> <br> NOTE 4: This destruction does not necessarily affect all copies of the private key. Only the physical instance of the key stored in the secure cryptographic device under consideration will be destroyed.<br>
+OVR -6.5.2-02: The secure cryptographic device shall be operated in its configuration as described in the appropriate certification guidance documentation or in an equivalent configuration which achieves the same security objective.<br> <br> OVR -6.5.2-03: The above secure cryptographic device should be assured as per OVR-6.5.2-01-a), above.  <br> <br> NOTE 2: With the general availability of devices which meet ISO/IEC 15408 [1], it is expected that ISO/IEC 19790 [3] or FIPS 140-2 [12] level 3 will no longer be acceptable.  <br> <br> NOTE 3: This applies also to key generation even if carried out in a separate system.  <br> <br> GEN-6.5.2-04: The CA private signing key shall be held and used within a secure cryptographic device meeting the requirements of OVR-6.5.2-01 and OVR-6.5.2-02 above.<br> <br> GEN-6.5.2-05 [CONDITIONAL]: When outside the secure cryptographic device (see GEN-6.5.2-04 above) the CA private key shall be protected in a way that ensures the same level of protection as provided by the secure cryptographic device.<br> <br> GEN-6.5.2-06: The CA private signing key shall be backed up, stored and recovered only by personnel in trusted roles using, at least, dual control in a physically secured environment (see clause 6.4.2).<br> <br> GEN-6.5.2-07: The number of personnel authorized to carry out the CA private signing key back up, storage and recovery shall be kept to a minimum and be consistent with the CA's practices.<br> <br> GEN-6.5.2-08: Copies of the CA private signing keys shall be subject to the same or greater level of security controls as keys currently in use.<br> <br> GEN-6.5.2-09 [CONDITIONAL]: Where the CA private signing keys and any copies are stored in a dedicated secure cryptographic device, access controls shall be in place to ensure that the keys are not accessible outside this device.<br> <br> OVR -6.5.2-10: The secure cryptographic device shall not be tampered with during shipment.<br> <br> OVR -6.5.2-11: The secure cryptographic device shall not be tampered with while stored.<br> <br> OVR -6.5.2-12: The secure cryptographic device shall be functioning correctly.<br> <br> GEN-6.5.2-13: The CA private signing keys stored on the CA's secure cryptographic device shall be destroyed upon device retirement.<br> <br> NOTE 4: This destruction does not necessarily affect all copies of the private key. Only the physical instance of the key stored in the secure cryptographic device under consideration will be destroyed.<br>
       </td>
     </tr>
     <tr>
