@@ -470,10 +470,18 @@ logged.</td>
       <td  valign="top"></td>
     </tr>
     <tr>
-      <td  valign="top">The operational period of a Certificate ends upon its expiration or revocation. The operational period for Key Pairs is the same as the operational period for the associated Certificates, except that they may continue to be used for signature verification The applicability of cryptographic algorithms and parameters is constantly supervised. If an algorithm or the appropriate key length offers no sufficient security during validity period of the Certificate, the concerned Certificate will be revoked and new Certificate Application will be initiated. The maximum operational periods for Root CA Certificates are set forth in table below.
+      <td  valign="top">The operational period of a Certificate ends upon its expiration or revocation. The operational period for Key Pairs is the same as the operational period for the associated Certificates, except that they may continue to be used for signature verification The applicability of cryptographic algorithms and parameters is constantly supervised. If an algorithm or the appropriate key length offers no sufficient security during validity period of the Certificate, the concerned Certificate will be revoked and new Certificate Application will be initiated. The maximum operational periods for Root CA Certificates are set forth .
 <br><br>
-        Certificate                                |              Validity Period
-       Siemens Root CA Certificate                 | Up to twelve (12) years
+   <table>
+       <tr>
+           <td>   Certificate      </td>
+           <td>   Validity Period </td>
+       </tr>
+       <tr>
+           <td> Siemens Root CA Certificate </td>
+           <td>Up to twelve (12) years </td>
+       </tr>
+ </table>
 <br><br>
       The Validity Period of the Private Key and Public Key of Issuing CAs, RAs and Subjects ends upon its expiration or revocation. This Validity Period is based on the Validity Period of the Root CA Certificate set forth in the table below.
 
