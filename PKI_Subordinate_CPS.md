@@ -90,7 +90,19 @@ GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GE
       <td  valign="top"></td>
     </tr>
     <tr>
-      <td  valign="top">The Key Pairs of the Root CAs and Issuing CAs are generated  are generated pursuant to formal key generation procedures and inside of a hardware security module (“HSM”), which is certified in accordance with FIPS 140-2 Level 3. All operations that involve the CA keys are performed under dual control by trusted roles in the physiscally secured environment of the Eagle DC and documented according the requirements set forth in the CA and HSM Management | 3.2 Rollenverteilung bei CA Events</td>
+      <td  valign="top">The Key Pairs of the Root CAs and Issuing CAs are generated  are generated pursuant to formal key generation procedures and inside of a hardware security module (“HSM”), which is certified in accordance with FIPS 140-2 Level 3. All operations that involve the CA keys are performed under dual control by trusted roles in the physiscally secured environment of the Eagle DC. For the execution of an event, the persons involved and their roles are redefined. A restricted group of persons has been defined for the management and planning of CA events:   
+<ul>
+    <li>Two employees of the Siemens CA operating team are required to gain physical access to the Siemens CA rooms.</li>
+    <li>One employee who has authorization for CA administration (SO)</li>
+    <li>If required, the service owner to ensure the proper execution of the event.</li>
+ </ul>
+For each event a detailed agenda of the respective event will be created in advance. In this agenda each step is given in a comprehensible way. This agenda is the framework for the protocol to be generated during the event, in which participants, steps, success and deviations from the procedure planned in the agenda are documented. Part of the event protocol is an exact time specification of the relevant activities, at least the beginning and the end of the event. In addition, root events are recorded on video. All write accesses to the HSM and the associated tokens take place exclusively within the framework of a logged event. The logs are archived on the event laptop and on de. An exact recording of all used objects, their integrity and their subsequent secure return to the defined storage location is mandatory in the protocol. The protocol must be signed:
+ <ul>
+    <li> For root events: A representative of the PMA, the security officer and an independent auditor.</li>
+     <li>At Sub-CA Events: The Security Officer</li>
+ </ul>
+See also the inventory list kept in Excel, which documents the purpose and time of use. This is located in the folder that is created for the respective event.
+</td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.1<br>  <br><b>BRG</b>  <br>   For Root CA Key Pairs created after the Effective Date that are either (i) used as Root CA Key Pairs or (ii) Key Pairs generated for a subordinate CA that is not the operator of the Root CA or an Affiliate of the Root CA, the CA SHALL:
     <ol>
       <li>prepare and follow a Key Generation Script,</li>
@@ -508,7 +520,7 @@ logged.</td>
       <td  valign="top"></td>
     </tr>
     <tr>
-      <td  valign="top"><b>Further information are documented in the inter CA and HSM management manual.</b></td>
+      <td  valign="top"><b>See chapter 6.4.</b></td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.4<br>  <br><b>BRG</b>  <br>   Empty<br>  <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
       </td>
     </tr>
@@ -517,7 +529,7 @@ logged.</td>
       <td  valign="top"></td>
     </tr>
     <tr>
-     <td  valign="top">><b>Further information are documented in the inter CA and HSM management manual.</b></td>
+     <td  valign="top">><b>See chapter 6.4.</b></td>
      <td  valign="top">  <b>RFC</b>  <br>See chapter 6.4<br>  <br><b>BRG</b>  <br>   Empty<br>  <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
      </td>
     </tr>
@@ -526,7 +538,7 @@ logged.</td>
       <td  valign="top"></td>
     </tr>
     <tr>
-      <td  valign="top">><b>Further information are documented in the inter CA and HSM management manual.</b></td>
+      <td  valign="top">><b>See chapter 6.4.</b></td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.4<br>  <br><b>BRG</b>  <br>   Empty<br>  <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
       </td>
     </tr>
