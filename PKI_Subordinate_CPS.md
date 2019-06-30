@@ -293,7 +293,7 @@ See also the inventory list kept in Excel, which documents the purpose and time 
       <td  valign="top"></td>
     </tr>
     <tr>
-      <td  valign="top">“KeyUsage” extension fields of Siemens CA Certificates are specified in accordance RFC 5280 and defined in the Certificate Profile document available on www.siemens.com/pki based on the recommendations of ETSI TS 119 312. <br><br>Private Keys corresponding to Root Certificates of the Root CA are only used in the case of  self-signed Certificates to represent the Root CA itself, and for Certificates for Issuing CAs and Cross Certificates;
+      <td  valign="top">“KeyUsage” extension fields of Siemens CA Certificates are specified in accordance RFC 5280 and defined in the Certificate Profile document available on www.siemens.com/pki based on the recommendations of ETSI TS 119 312. <br><br>Private Keys corresponding to Root Certificates of the Root CA are only used in the case of  self-signed Certificates to represent the Root CA itself, and for Certificates for Issuing CAs and Cross Certificates.
 </td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.1<br>  <br><b>BRG</b>  <br>   Private Keys corresponding to Root Certificates MUST NOT be used to sign Certificates except in the following cases:
       <ul>
