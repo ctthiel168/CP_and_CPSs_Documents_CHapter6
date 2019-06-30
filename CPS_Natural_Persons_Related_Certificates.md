@@ -422,7 +422,7 @@ GEN-6.5.1-13: The TSP shall produce a report proving that the ceremony, as in GE
       <td  valign="top"></td>
     </tr>
     <tr>
-      <td  valign="top">Compare Chapter 6.2.10 of CPS Siemens PKI Superordinate CPS<br><br> In case subject private keys are no longer needed, the corresponding certificate will be revoked. Due to key-recovery requirements for encryption keys, these keys will be securely archived by the corresponding Issuing CA. E.g. in case an employee leaves the company the corresponding employee card (which includes the private key) will be retracted and securely destroyed. The destruction process is documented accordingly.</td>
+      <td  valign="top">Compare Chapter 6.2.11 of CPS Siemens PKI Superordinate CPS<br><br> In case subject private keys are no longer needed, the corresponding certificate will be revoked. Due to key-recovery requirements for encryption keys, these keys will be securely archived by the corresponding Issuing CA. E.g. in case an employee leaves the company the corresponding employee card (which includes the private key) will be retracted and securely destroyed. The destruction process is documented accordingly.</td>
       <td  valign="top">  <b>RFC</b>  <br>See chapter 6.2<br>  <br><b>BRG</b>  <br>   Empty<br>  <br><b>ETSI EN 319 401 V2.2.1</b> <br>    <br><b>ETSI EN 319 411-1 V1.2.1</b><br>
       </td>
     </tr>
